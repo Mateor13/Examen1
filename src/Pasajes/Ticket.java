@@ -19,5 +19,12 @@ public class Ticket extends Ruta {
     public void setNumTicket(String numTicket) {
         this.numTicket = numTicket;
     }
+    //Metodos Personalizados
+    //mostrar Datos
+    @Override
+    public void mostrarDatos() {
+        System.out.println("número de ticket: " + getNumTicket());
+        super.mostrarDatos();
+    }
 
 }

@@ -35,6 +35,15 @@ public class Ruta extends Pasajero {
     public void mostrarDatos() {
         super.mostrarDatos();
         System.out.println("Ruta seleccionada: " + getRutas());
+        if (getRutas().equals("quito - guayaquil")) {
+            setPrecioRuta(20.00);
+        }else if(getRutas().equals("quito - tulcan")){
+            setPrecioRuta(17.5);
+        }else if(getRutas().equals("quito - puyo")){
+            setPrecioRuta(15.0);
+        }else if(getRutas().equals("quito - riobamba")){
+            setPrecioRuta(17.5);
+        }
         System.out.println("Precio Ruta: $" + getPrecioRuta());
     }
 }
