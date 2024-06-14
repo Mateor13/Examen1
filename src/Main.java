@@ -1,3 +1,4 @@
+package src;
 import Pasajes.*;
 
 public class Main {

@@ -1,6 +1,6 @@
-package Pasajes;
+package src.Pasajes;
 
-public class Ticket extends Ruta{
+public class Ticket extends Ruta {
     String numTicket;
     //Constructores
     public Ticket() {

@@ -1,4 +1,4 @@
-package Pasajes;
+package src.Pasajes;
 
 public class Pasajero {
     String nombre, cedula;

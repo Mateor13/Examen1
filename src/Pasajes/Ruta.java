@@ -1,6 +1,6 @@
-package Pasajes;
+package src.Pasajes;
 
-public class Ruta extends Pasajero{
+public class Ruta extends Pasajero {
     String rutas;
     Double precioRuta;
     //Contructores
