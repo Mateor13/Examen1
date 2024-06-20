@@ -33,7 +33,7 @@ public class Adicionales extends NormalVIP{
         if (getMaletaExtra()) {
             System.out.println("Precio maleta extra: 15");
         }
-        System.out.println("Precio total: $" + getPrecioRuta());
+        System.out.println("Precio total: $" + getPrecioRuta()+ '\n');
     }
 
 }

@@ -22,7 +22,7 @@ public class NormalVIP extends Ticket{
     //Metodos personalizados
     public void costoExtra () {
         if (getTipoCliente().equals("VIP")||getTipoCliente().equals("vip")) {
-        setPrecioRuta(getPrecioRuta()+(getPrecioRuta()*0.3));
+        super.setPrecioRuta(getPrecioRuta()+(getPrecioRuta()*0.3));
     }
     }
 
@@ -30,6 +30,6 @@ public class NormalVIP extends Ticket{
     public void mostrarDatos() {
         super.mostrarDatos();
         System.out.println("Tipo Cliente: " + getTipoCliente());
-        System.out.println("Precio por tipo de cliente: " + (getPrecioRuta()*0.3));
+        System.out.println("Precio por tipo de cliente: " + (getPrecio()*0.3));
     }
 }

@@ -59,6 +59,36 @@ public class Main {
     cliente3.setMaletaExtra(extra3);
     cliente4.setMaletaExtra(extra4);
     cliente5.setMaletaExtra(extra5);
+    cliente1.rutas();
+    cliente2.rutas();
+    cliente3.rutas();
+    cliente4.rutas();
+    cliente5.rutas();
+    cliente6.rutas();
+    cliente7.rutas();
+    cliente8.rutas();
+    cliente9.rutas();
+    cliente10.rutas();
+    cliente1.costoExtra();
+    cliente2.costoExtra();
+    cliente3.costoExtra();
+    cliente4.costoExtra();
+    cliente5.costoExtra();
+    cliente6.costoExtra();
+    cliente7.costoExtra();
+    cliente8.costoExtra();
+    cliente9.costoExtra();
+    cliente10.costoExtra();
+    cliente1.Extramaleta();
+    cliente2.Extramaleta();
+    cliente3.Extramaleta();
+    cliente4.Extramaleta();
+    cliente5.Extramaleta();
+    cliente6.Extramaleta();
+    cliente7.Extramaleta();
+    cliente8.Extramaleta();
+    cliente9.Extramaleta();
+    cliente10.Extramaleta();
     cliente1.mostrarDatos();
     cliente2.mostrarDatos();
     cliente3.mostrarDatos();
@@ -69,6 +99,5 @@ public class Main {
     cliente8.mostrarDatos();
     cliente9.mostrarDatos();
     cliente10.mostrarDatos();
-
     }
 }
